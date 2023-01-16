@@ -62,6 +62,7 @@ time-picker/range
 | range-separator       | range separator                                          | string                                 | —                                                             | '-'         |
 | format                | format of the displayed value in the input box           | string                                 | see [date formats](/en-US/component/date-picker#date-formats) | HH:mm:ss    |
 | default-value         | optional, default date of the calendar                   | Date / [Date, Date]                    | —                                                             | —           |
+| value-format          | optional, format of binding value. If not specified, the binding value will be a Date object          | string                                             | see [date formats](/en-US/component/date-picker#date-formats)            | —           |
 | id                    | same as `id` in native input                             | string / [string, string]              | —                                                             | -           |
 | name                  | same as `name` in native input                           | string                                 | —                                                             | —           |
 | prefix-icon           | Custom prefix icon component                             | `string \| Component`                  | —                                                             | Clock       |
